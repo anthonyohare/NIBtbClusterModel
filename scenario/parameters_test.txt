@@ -1,0 +1,7 @@
+beta = 5E-4
+sigma = 0.84
+gamma = 0.09
+alpha = 1E-6
+alphaPrime = 1E-6
+testSensitivity = 0.6
+mutationRate = 2E-4

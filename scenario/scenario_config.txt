@@ -1,0 +1,19 @@
+farmIds = test_data/farm_data.csv
+settIds = test_data/sett_data.txt
+slaughterhouseMovesFile = test_data/SlaughterDistribution.csv
+samplingRateFile = test_data/samplingFrequency.csv
+observedSnpPairwiseDistanceFile = test_data/pairwise_distances_histogram.csv
+movementFrequenciesFile = test_data/all_movements_distributions.csv
+
+diversityModel = MAXIMUM
+stepSize = 14
+numInitialRestrictedHerds = 2
+testIntervalInYears = 1
+maxOutbreakSize = 1000
+reservoirsIncluded = true
+dateFormat = yyyy-MM-dd
+startDate = 1995-06-15
+endDate = 2010-12-31
+numMovements = 3680
+numSlaughters = 4800
+initialInfectionStates=9995556:1001:0.727095,0.000000,0.003723,0.269182;9800763:1001:0.727095,0.000000,0.003723,0.269182;9799003:1001:0.727095,0.000000,0.003723,0.269182;9795262:2002:0.727095,0.000000,0.003723,0.269182;

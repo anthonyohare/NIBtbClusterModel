@@ -1,0 +1,10 @@
+universe   = vanilla
+requirements = (Machine == "pin.cs.stir.ac.uk")
+executable =  run_controller.sh
+notification = complete
+should_transfer_files = IF_NEEDED
+transfer_input_files = NIBtbModelController.jar,controller_config.txt,state.txt,parameters.txt,NIBtbClusterModel.txt
+error   = controller.err
+output  = controller.out
+log     = controller.log
+queue

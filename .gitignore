@@ -1,0 +1,13 @@
+/original/
+/simulations/
+/Tutorials/
+/controller/.idea/
+/controller/target/
+/controller/NIBtbClusterModel_controller.iml
+/scenario/.idea/
+/scenario/target/
+/scenario/data/
+/scenario/config_4kmradius_max.txt
+/scenario/parameters.txt
+/scenario/Scenario*.results
+/scenario/test_parameters_2.txt

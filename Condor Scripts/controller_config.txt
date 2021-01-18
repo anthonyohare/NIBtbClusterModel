@@ -1,0 +1,17 @@
+numScenarios = 2000
+smoothingRatio = 50
+percentageDeviation = 10.0
+parametersFile = parameters.txt
+outputFile = NIBtbClusterModel.txt
+stateFile = state.txt
+resultsDir = <PATH_TO_DIRECTORY>>/NIBtbClusterModel
+resultsFile = scenario_%d.results
+betaRange = 1E-06:1E-04
+sigmaRange = 0.14:56
+gammaRange = 0.052:0.117
+alphaRange = 1E-06:1E-04
+alphaPrimeRange = 1E-06:1E-04
+testSensitivityRange = 0.4:0.8
+mutationRateRange = 1E-5:0.005
+includeBadgers = true
+

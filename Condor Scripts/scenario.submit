@@ -1,0 +1,11 @@
+universe   = vanilla
+requirements = (Machine == "pin.cs.stir.ac.uk")
+executable =  run_scenario.sh
+Arguments = -i $(Process)
+should_transfer_files = IF_NEEDED
+transfer_input_files = NIBtbModelScenario.jar,scenario_config.txt,parameters.txt,SlaughterDistribution.csv,all_movements_distributions.csv,pairwise_distances_histogram.csv,samplingFrequency.csv,farm_data.csv,sett_data.dat
+notification = complete
+error   = scenario_$(Process).err
+output  = scenario_$(Process).out
+log     = scenario_$(Process).log
+queue 2000
